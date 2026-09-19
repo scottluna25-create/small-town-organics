@@ -3,7 +3,7 @@ export const site = {
   tagline: "Health, Body, and Soul",
   description:
     "Small Town Organics is an organic wellness company making honest goods for health, body, and soul.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://small-town-organics.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://smalltown-organics.com",
   founder: "Scott Luna",
 } as const;
 

@@ -68,8 +68,12 @@ export default function HomePage() {
       <section className="mx-auto max-w-2xl px-6 py-20 text-center">
         <h2 className="font-serif text-3xl text-forest-deep">Be first in line</h2>
         <p className="mt-3 text-forest">
-          No fake shop. No invented catalog. Leave your email and we will tell you when
-          the first goods are real.
+          Packaging for Barnlight Botanicals is on the{" "}
+          <Link href="/products" className="underline decoration-forest/30 underline-offset-4 hover:text-forest-deep">
+            Products
+          </Link>{" "}
+          page. The goods are not for sale yet. Leave your email and we will tell you
+          when they are real.
         </p>
         <div className="mx-auto mt-8 flex justify-center">
           <WaitlistForm source="home" />

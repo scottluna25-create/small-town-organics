@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const nav = [
   { href: "/about", label: "About" },
+  { href: "/products", label: "Products" },
   { href: "/health", label: "Health" },
   { href: "/body", label: "Body" },
   { href: "/soul", label: "Soul" },

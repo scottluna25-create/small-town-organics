@@ -4,7 +4,7 @@ import { absUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const pages = ["", "/about", "/health", "/body", "/soul", "/journal", "/contact", "/privacy", "/terms"];
+  const pages = ["", "/about", "/products", "/health", "/body", "/soul", "/journal", "/contact", "/privacy", "/terms"];
   return [
     ...pages.map((path) => ({
       url: absUrl(path || "/"),
